@@ -53,7 +53,7 @@ class Podcast(Media):
 
 # System interaction to create media and perform actions
 def main():
-    print("Welcome to MUSIFY")
+    print("Welcome to MUSIFY!")
     
     # Create media items
     song = Song("That's so true", 3.5, "Gracie Abrams", "The Secret of Us")
