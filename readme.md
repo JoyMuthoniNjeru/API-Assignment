@@ -1,13 +1,12 @@
-Banking System
-
-This is a banking system that manages Savings and Checking accounts, allowing users to deposit and withdraw money.
+MUSIFY 
+This is a system that allows users to select and play either a song or podcast. It uses core OOP concepts.
 
 Classes
--Account (Abstract Base Class)
-Encapsulates balance data with getter and setter methods.
+Media (Abstract Base Class):
+It serves as the base class for all media types in the system.
 
--SavingsAccount (Subclass of Account)
-Implements a specific account type with a withdrawal limit.
+Song (Subclass of Media):
+It represents a specific type of Media, designed to play music tracks.
 
--CheckingAccount (Subclass of Account)
-Implements an account with overdraft capabilities.
+Podcast (Subclass of Media):
+It represents a specific type of Media, designed to play podcast episodes.
